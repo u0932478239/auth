@@ -8,4 +8,4 @@ If you have any ideas on ways to make this code more effieciant or anything just
 
 # Notes
 
-```If your looking for a good auth system for multiple languages try [cAuth](https://cauth.me). I've used them before and the owner is really helpful!```
+```If your looking for a good auth system for multiple languages try https://cauth.me. I've used them before and the owner is really helpful!```
