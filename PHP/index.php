@@ -19,6 +19,7 @@ return $encrypted;
     }
 ?>
 <?php
+//I have yet to add a database like MySQL for the users and passwords. That shouldn't be a problem for people tho.
 $u = $_GET['u'];
 $user = decrypt_data($u);
 $p = $_GET['p'];
@@ -29,8 +30,8 @@ $decoded = json_decode($variable,true);
 $time = $decoded["currentDateTime"];
 $correctexpire = base64_encode($time);
 if ($expire == $correctexpire){
-    if ($user == 'Samzy'){
-        if ($pass == 'harvest1'){
+    if ($user == 'Username'//Change this to the correct username){
+        if ($pass == 'pass'//Change this to the correct Pass. For some reason if it starts with a capital letter the enc brakes it. Idk man){
             echo encrypt_data('access granted');
             die();
         }else{
