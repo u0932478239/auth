@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/YungSamzy/auth/badge)](https://www.codefactor.io/repository/github/YungSamzy/auth)
+
 # About 
  
 ```This is a End-2-End Encrypted Auth System I made to prove a point.
